@@ -15,6 +15,7 @@ import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import {HttpClientModule} from '@angular/common/http';
+import { FooterComponent } from './componente/footer/footer.component';
 //import { SlideComponent } from "ngx-bootstrap/carousel";
 //import { SlideComponent_1 as SlideComponent } from "ngx-bootstrap/carousel";
 
@@ -28,7 +29,8 @@ import {HttpClientModule} from '@angular/common/http';
         PersonajesComponent,
         ProduccionYLanzamientoComponent,
         LoginComponent,
-        CarruselDeImagenesComponent
+        CarruselDeImagenesComponent,
+        FooterComponent
     ],
     providers: [],
     bootstrap: [AppComponent],
