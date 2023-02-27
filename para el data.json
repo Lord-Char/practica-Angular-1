@@ -1,0 +1,11 @@
+Borrador del objeto armamento, para el archivo data.json
+
+"armamento": [
+    {"id":1,"name":"Beam Vulcan"}, 
+    {"id":2, "name":"Escutcheon"}, 
+    {"id":3, "name":"Bit Stave"}, 
+    {"id":4, "name":"Beam Saber"}, 
+    {"id":5, "name":"Beam Rifle"}, 
+    {"id":6, "name":"Beam Blade"}, 
+    {"id":7, "name":"GUND-BIT Rifle"}
+  ]

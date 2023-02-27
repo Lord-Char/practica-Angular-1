@@ -7,10 +7,15 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
   styleUrls: ['./sobre-serie.component.css']
 })
 export class SobreSerieComponent {
+
+  miPortfolio:any;
+
   constructor(private datosPortfolio:PortfolioService) {}
     ngOnInit(): void {
       this.datosPortfolio.obtenerDatos().subscribe(data => {
         console.log(data);
+        
+        this.miPortfolio = data; //este es el enlace del databinding
       })
     }
   
