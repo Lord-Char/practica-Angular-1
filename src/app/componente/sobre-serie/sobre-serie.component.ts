@@ -9,7 +9,9 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
 export class SobreSerieComponent {
   constructor(private datosPortfolio:PortfolioService) {}
     ngOnInit(): void {
-      this.datosPortfolio.obtenerDatos()
+      this.datosPortfolio.obtenerDatos().subscribe(data => {
+        console.log(data);
+      })
     }
   
 }

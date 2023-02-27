@@ -11,10 +11,10 @@ import { ProduccionYLanzamientoComponent } from './componente/produccion-y-lanza
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './componente/login/login.component';
 import { CarruselDeImagenesComponent } from './componente/carrusel-de-imagenes/carrusel-de-imagenes.component';
-
 import { NO_ERRORS_SCHEMA } from '@angular/core';
 import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
+import {HttpClientModule} from '@angular/common/http';
 //import { SlideComponent } from "ngx-bootstrap/carousel";
 //import { SlideComponent_1 as SlideComponent } from "ngx-bootstrap/carousel";
 
@@ -38,6 +38,7 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
         NgbModule,
         BrowserAnimationsModule,
         CarouselModule.forRoot(),
+        HttpClientModule,
         //SlideComponent,
         //SlideComponent_1
     ]
