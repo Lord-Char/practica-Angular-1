@@ -1,1 +1,25 @@
-/* You can add global styles to this file, and also import other style files */
+*, *:before, *:after{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    padding: 30px;
+}
+
+.indicador__contenedor {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    height: 7px;
+    z-index: 1001;
+}
+
+.indicador__scroll {
+    height: 100%;
+    width: 0;
+    background-color: rgb(25, 121, 169);
+}
+

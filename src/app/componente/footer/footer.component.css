@@ -1,5 +1,31 @@
 .lista__footer, .item__footer{
     list-style: none;
     display: flex;
-    
+}
+
+#ir__arriba__boton {
+    position: fixed;
+    z-index: 1000;
+    right: 25px;
+    bottom: 25px;
+    background-color: rgb(25, 121, 169);
+    color: white;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .2s;
+}
+
+#ir__arriba__boton {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.ocultar{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.mostrar{
+    opacity: 1;
+    visibility: visible;
 }
