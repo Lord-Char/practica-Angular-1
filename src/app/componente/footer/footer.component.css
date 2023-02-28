@@ -1,0 +1,5 @@
+.lista__footer, .item__footer{
+    list-style: none;
+    display: flex;
+    
+}
