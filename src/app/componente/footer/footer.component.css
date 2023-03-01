@@ -1,19 +1,25 @@
 .div__footer{
+    width:100%;
+    background:pink;
+    display:inline-block;
+    justify-content: center;    
+}
+
+.inner__footer {
     width: 100%;
-    background-color: black;
+    background-color: #8e44ad;
+    text-align: center;
 }
 
 .titulo__footer{
-    color: #4b7bec;
+    color: #f5f6fa;
 }
 
 .item__footer, .item__hashtag{
+    margin: 15% 5% 5% auto;
     height:10vh;
     width:10vw;
-    width:100%;
-    display: flex;
-    justify-content: center;
-    color: #c0392b;
+    color: #f5f6fa;
     text-transform: uppercase;
     text-decoration: none;
     font-size:1rem;
@@ -25,8 +31,7 @@
     right: 25px;
     bottom: 25px;
     background-color: rgb(25, 121, 169);
-    color: white;
-    text-align: center;
+    color: blue;
     border-radius: 50%;
     transition: all .2s;
 }
