@@ -16,6 +16,7 @@ import { CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CarouselModule } from 'ngx-bootstrap/carousel';
 import {HttpClientModule} from '@angular/common/http';
 import { FooterComponent } from './componente/footer/footer.component';
+import { TituloSerieComponent } from './componente/titulo-serie/titulo-serie.component';
 //import { SlideComponent } from "ngx-bootstrap/carousel";
 //import { SlideComponent_1 as SlideComponent } from "ngx-bootstrap/carousel";
 
@@ -30,7 +31,8 @@ import { FooterComponent } from './componente/footer/footer.component';
         ProduccionYLanzamientoComponent,
         LoginComponent,
         CarruselDeImagenesComponent,
-        FooterComponent
+        FooterComponent,
+        TituloSerieComponent
     ],
     providers: [],
     bootstrap: [AppComponent],
