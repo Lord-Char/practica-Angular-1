@@ -1,6 +1,22 @@
-.lista__footer, .item__footer{
-    list-style: none;
+.div__footer{
+    width: 100%;
+    background-color: black;
+}
+
+.titulo__footer{
+    color: #4b7bec;
+}
+
+.item__footer, .item__hashtag{
+    height:10vh;
+    width:10vw;
+    width:100%;
     display: flex;
+    justify-content: center;
+    color: #c0392b;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size:1rem;
 }
 
 #ir__arriba__boton {
